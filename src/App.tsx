@@ -42,7 +42,7 @@ function HomePage() {
           Padi<span className='gradient-text'>vouch</span>
         </h1>
 
-        <p className='coming-soon-tagline'>Changing the Event's Landscape</p>
+        <p className='coming-soon-tagline'>your trusted event concierge</p>
 
         <div className='coming-soon-badge'>
           <span className='pulse-dot' />
@@ -147,6 +147,16 @@ function Footer() {
   return (
     <footer className='footer'>
       <div className='container footer-bottom'>
+        <p style={{ marginBottom: '8px' }}>
+          102 Close, Ikoyi, Lagos, Nigeria
+          {' · '}
+          <a
+            href='mailto:hello@padivouch.com'
+            style={{ color: 'var(--primary-light)', textDecoration: 'none' }}
+          >
+            hello@padivouch.com
+          </a>
+        </p>
         <p>
           &copy; {new Date().getFullYear()} Padivouch Limited. All rights
           reserved.
