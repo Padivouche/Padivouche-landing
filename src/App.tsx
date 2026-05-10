@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import primaryLogo from './assets/primary-logo.svg';
 import {
   BrowserRouter,
   Routes,
@@ -38,9 +39,7 @@ function HomePage() {
   return (
     <header className='hero coming-soon-hero'>
       <div className='container coming-soon-inner'>
-        <h1 className='coming-soon-title'>
-          <span className='gradient-text'>Meri</span>
-        </h1>
+        <img src={primaryLogo} alt='Meri' className='coming-soon-logo' />
 
         <p className='coming-soon-tagline'>your trusted event concierge</p>
 
@@ -64,7 +63,7 @@ function PrivacyPolicy() {
         <div className='last-updated'>Last updated: February 24, 2026</div>
 
         <p>
-          Meri ("we", "us") is operated by Meri Limited ("Company"). This
+          Meri ("we", "us") is operated by Padivouch Limited ("Company"). This
           Privacy Policy explains how we collect, use, and share information
           when you use our website and mobile application (the "Services").
         </p>
@@ -153,11 +152,12 @@ function Footer() {
             href='mailto:hello@meri.events'
             style={{ color: 'var(--primary-light)', textDecoration: 'none' }}
           >
-            hello@meri.com
+            hello@meri.events
           </a>
         </p>
         <p>
-          &copy; {new Date().getFullYear()} Meri Limited. All rights reserved.
+          &copy; {new Date().getFullYear()} Padivouch Limited. All rights
+          reserved.
           {' · '}
           <Link to='/privacy' style={{ color: 'var(--primary-light)' }}>
             Privacy Policy

@@ -343,6 +343,11 @@ h4 {
   margin-bottom: 20px;
   animation: fadeInUp 0.8s ease-out;
 }
+.coming-soon-logo {
+  width: clamp(200px, 50vw, 420px);
+  margin-bottom: 20px;
+  animation: fadeInUp 0.8s ease-out;
+}
 .coming-soon-tagline {
   font-size: clamp(1.1rem, 2.5vw, 1.6rem);
   color: var(--text-muted);
