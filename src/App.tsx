@@ -27,7 +27,7 @@ function Navbar() {
     <nav className='navbar'>
       <div className='container nav-container'>
         <Link to='/' className='logo-text'>
-          Padi<span className='hi'>vouch</span>
+          Meri
         </Link>
       </div>
     </nav>
@@ -39,7 +39,7 @@ function HomePage() {
     <header className='hero coming-soon-hero'>
       <div className='container coming-soon-inner'>
         <h1 className='coming-soon-title'>
-          Padi<span className='gradient-text'>vouch</span>
+          <span className='gradient-text'>Meri</span>
         </h1>
 
         <p className='coming-soon-tagline'>your trusted event concierge</p>
@@ -60,14 +60,13 @@ function PrivacyPolicy() {
         className='privacy-content glass'
         style={{ padding: '40px', borderRadius: 'var(--radius-lg)' }}
       >
-        <h1>Privacy Policy — Padivouch</h1>
+        <h1>Privacy Policy — Meri</h1>
         <div className='last-updated'>Last updated: February 24, 2026</div>
 
         <p>
-          Padivouch ("we", "us") is operated by Padivouch Limited ("Company").
-          This Privacy Policy explains how we collect, use, and share
-          information when you use our website and mobile application (the
-          "Services").
+          Meri ("we", "us") is operated by Meri Limited ("Company"). This
+          Privacy Policy explains how we collect, use, and share information
+          when you use our website and mobile application (the "Services").
         </p>
 
         <h2>Information we collect</h2>
@@ -128,14 +127,14 @@ function PrivacyPolicy() {
 
         <h2>Contact</h2>
         <p>
-          Padivouch Limited
+          Meri Limited
           <br />
           Email:{' '}
           <a
-            href='mailto:hello@padivouch.com'
+            href='mailto:hello@meri.events'
             style={{ color: 'var(--primary-light)' }}
           >
-            hello@padivouch.com
+            hello@meri.com
           </a>
         </p>
       </div>
@@ -151,15 +150,14 @@ function Footer() {
           102 Close, Ikoyi, Lagos, Nigeria
           {' · '}
           <a
-            href='mailto:hello@padivouch.com'
+            href='mailto:hello@meri.events'
             style={{ color: 'var(--primary-light)', textDecoration: 'none' }}
           >
-            hello@padivouch.com
+            hello@meri.com
           </a>
         </p>
         <p>
-          &copy; {new Date().getFullYear()} Padivouch Limited. All rights
-          reserved.
+          &copy; {new Date().getFullYear()} Meri Limited. All rights reserved.
           {' · '}
           <Link to='/privacy' style={{ color: 'var(--primary-light)' }}>
             Privacy Policy
