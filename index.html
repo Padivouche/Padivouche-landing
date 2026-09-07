@@ -654,12 +654,12 @@
     <div class="dialog-inner">
       <div class="dialog-topline">
         <img class="dialog-mark" src="/meri-logo.svg" alt="meri">
-        <button class="dialog-close" type="button" data-close-waitlist aria-label="Close early access form">×</button>
+        <button class="dialog-close" type="button" data-close-waitlist aria-label="Close waitlist form">×</button>
       </div>
 
       <div id="waitlist-form-state">
         <h2 class="dialog-heading" id="waitlist-title">Come in early.</h2>
-        <p class="dialog-copy">meri is opening early access in stages. Leave your name and email and we’ll be in touch.</p>
+        <p class="dialog-copy">Join our waitlist.</p>
 
         <form class="waitlist-form" id="waitlist-form" name="meri-early-access" method="POST" data-netlify="true" netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="meri-early-access">
@@ -668,8 +668,8 @@
           </p>
 
           <div class="field">
-            <label for="first-name">First name</label>
-            <input id="first-name" name="first-name" type="text" autocomplete="given-name" required>
+            <label for="full-name">Full name</label>
+            <input id="full-name" name="full-name" type="text" autocomplete="name" required>
           </div>
 
           <div class="field">
@@ -678,7 +678,7 @@
           </div>
 
           <button class="submit-button" type="submit"><span>Request early access</span><span aria-hidden="true">→</span></button>
-          <p class="form-note">Early access will open in stages. We’ll only contact you about meri access. <a href="/privacy/">Privacy</a>.</p>
+          <p class="form-note">Follow <a href="https://www.instagram.com/themerievents/" target="_blank" rel="noopener noreferrer">@themerievents</a>. <a href="/privacy/">Privacy</a>.</p>
           <p class="form-error" id="form-error" role="alert" hidden>Something went wrong. Please try again.</p>
         </form>
       </div>
@@ -686,7 +686,7 @@
       <div class="success-state" id="waitlist-success" hidden tabindex="-1">
         <p class="success-kicker">Early access requested</p>
         <h2>You’re on<br>the list.</h2>
-        <p>We’ll be in touch as meri opens up. In the meantime, follow <a href="https://www.instagram.com/themerievents/" target="_blank" rel="noopener noreferrer">@themerievents</a>.</p>
+        <p>We’ll be in touch. Follow <a href="https://www.instagram.com/themerievents/" target="_blank" rel="noopener noreferrer">@themerievents</a>.</p>
       </div>
     </div>
   </dialog>
